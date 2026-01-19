@@ -5,3 +5,4 @@ python-dotenv
 beautifulsoup4
 supabase
 stripe
+gunicorn==21.2.0
