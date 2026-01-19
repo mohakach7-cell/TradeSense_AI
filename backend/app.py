@@ -5,6 +5,8 @@ import os
 
 # Import blueprints
 from routes.market_data import market_data_bp
+from routes.casablanca_bourse import casablanca_bp
+from routes.payments import payments_bp
 
 load_dotenv()
 
