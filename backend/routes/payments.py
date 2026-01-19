@@ -1,6 +1,6 @@
 import stripe
 from flask import Blueprint, request, jsonify
-from backend.utils.auth import require_auth, get_supabase_client
+from utils.auth import require_auth, get_supabase_client
 from supabase import create_client
 from datetime import datetime
 import os
