@@ -1,0 +1,22 @@
+project_id = "ekldooflzcvhwktsjdlm"
+
+[functions.create-checkout]
+verify_jwt = false
+
+[functions.verify-payment]
+verify_jwt = false
+
+[functions.market-data]
+verify_jwt = false
+
+[functions.create-paypal-order]
+verify_jwt = false
+
+[functions.capture-paypal-order]
+verify_jwt = false
+
+[functions.create-crypto-checkout]
+verify_jwt = false
+
+[functions.casablanca-bourse]
+verify_jwt = false
