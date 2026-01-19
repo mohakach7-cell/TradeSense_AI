@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from backend.utils.auth import require_auth
+from utils.auth import require_auth
 import os
 import requests
 import time
