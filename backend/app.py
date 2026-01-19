@@ -4,9 +4,7 @@ from dotenv import load_dotenv
 import os
 
 # Import blueprints
-from backend.routes.market_data import market_data_bp
-from backend.routes.casablanca_bourse import casablanca_bp
-from backend.routes.payments import payments_bp
+from routes.market_data import market_data_bp
 
 load_dotenv()
 
